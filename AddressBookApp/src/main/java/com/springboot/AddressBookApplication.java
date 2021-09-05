@@ -3,12 +3,14 @@ package com.springboot;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+import com.sun.tools.sjavac.Log;
+
 @SpringBootApplication
-public class AddressBookAppApplication {
+
+public class AddressBookApplication {
 
 	public static void main(String[] args) {
-		System.out.println("welcome");
-		SpringApplication.run(AddressBookAppApplication.class, args);
-		System.out.println("Spring Boot is Rinning Successfully..!");
+		SpringApplication.run(AddressBookApplication.class, args);
 	}
+
 }
